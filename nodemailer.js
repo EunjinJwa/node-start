@@ -3,8 +3,8 @@ const nodemailer = require('nodemailer'); // package nodemailer download
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'ejjwa0563@gmail.com',
-        pass: 'Kassy#$18192531'
+        user: 'ejj@gmail.com',
+        pass: '#####'
     }
 });
 
@@ -24,4 +24,4 @@ transporter.sendMail(mailOptions, function(error, info) {
 });
 
 // google 계정 보안문제로 실제 메일 전송은 실패함. 
-// 실제로 사용시 보안 관련 작업을 더 해줘야할 것으로 보임
+// 실제로 사용시 보안 관련 작업을 더 해줘야할 것으로 보임 
